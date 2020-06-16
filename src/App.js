@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Rock from './icons/Rock';
 import Paper from './icons/Paper';
 import Scissors from './icons/Scissors';
-import './App.css';
+import './App.sass';
 
 
 const choices = [
@@ -58,7 +58,7 @@ export default function App() {
     <div className="app">
       {/* information goes here */}
       <div className="info">
-        <h2>Rock. Paper. Scissors</h2>
+        <h2>Rock. Paper. Scissors.</h2>
 
         {/* wins vs losses stats */}
         <div className="wins-losses">
